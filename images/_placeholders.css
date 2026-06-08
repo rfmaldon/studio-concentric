@@ -1,0 +1,42 @@
+/* Inline SVG placeholder data URIs — drop-in replacements for real images.
+   Each one evokes the cinematic mood. Swap the background-image URL per element
+   when real photography arrives. */
+
+.ph-hero {
+  background-image:
+    radial-gradient(ellipse 600px 800px at 78% 50%, rgba(220,210,195,0.35) 0%, transparent 65%),
+    radial-gradient(ellipse 220px 300px at 78% 65%, rgba(255,250,235,0.22) 0%, transparent 60%),
+    linear-gradient(180deg, #050505 0%, #0d0d0d 60%, #1a1a1a 100%);
+}
+.ph-card-1 {
+  background-image:
+    radial-gradient(ellipse at 30% 60%, rgba(170,180,170,0.35), transparent 60%),
+    linear-gradient(135deg, #1a1f1c 0%, #0d1110 100%);
+}
+.ph-card-2 {
+  background-image:
+    radial-gradient(circle at 60% 45%, rgba(200,160,140,0.5), transparent 55%),
+    linear-gradient(135deg, #1c1410 0%, #0a0807 100%);
+}
+.ph-card-3 {
+  background-image:
+    radial-gradient(ellipse at 50% 70%, rgba(180,180,195,0.25), transparent 60%),
+    linear-gradient(180deg, #14181f 0%, #060708 100%);
+}
+.ph-card-4 {
+  background-image:
+    radial-gradient(circle at 50% 35%, rgba(220,215,205,0.45), transparent 55%),
+    linear-gradient(135deg, #1f1a18 0%, #0a0907 100%);
+}
+.ph-about {
+  background-image:
+    radial-gradient(circle 220px at 50% 65%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.05) 70%, transparent 75%),
+    linear-gradient(180deg, #d6d2c5 0%, #bdb6a6 60%, #a09989 100%);
+}
+.ph-news-1, .ph-news-2, .ph-news-3, .ph-news-4 {
+  background-color: #0e0e0e;
+}
+.ph-news-1 { background-image: radial-gradient(circle at 30% 50%, rgba(240,220,180,0.55), transparent 60%), linear-gradient(135deg, #1a140d, #050403); }
+.ph-news-2 { background-image: linear-gradient(180deg, #0a1418 0%, #03070a 100%); }
+.ph-news-3 { background-image: linear-gradient(120deg, #1b1916 0%, #060504 100%); }
+.ph-news-4 { background-image: linear-gradient(160deg, #14171b 0%, #060708 100%); }
